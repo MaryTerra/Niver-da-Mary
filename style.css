@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(./styleSrc/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}
+
+
+header{
+  display: flex;
+  justify-content: center;
+  
+  width: 100vw;
+  height: 18vh;
+}
+
+#logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Roboto";
+  font-size: small;
+}
+
+#top_secret{
+    display: flex;
+ 
+    width: 50px;
+    height: 50px;
+}
+
+#linkLocal {
+    color: brown;
+}
+#chegar{
+    color: brown;
+}
+#heartGif{
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (min-width: 500px ) {    
+ header{
+    width: 100vw;
+    height: 20vh;
+ }
+
+ #logo{
+    width: 100%;
+    height: 100%;
+    
+   
+}
+
+}
+
+@media screen and (min-width: 700px ) {    
+main{
+    display: block;
+}
+   
+   }
